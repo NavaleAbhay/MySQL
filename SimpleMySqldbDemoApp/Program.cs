@@ -1,5 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
-string connStr="server=localhost;uid=root;password=@sonya6080;database=classicmodels";
+string connStr="server=localhost;uid=root;password=  ;database=classicmodels";
 MySqlConnection conn=new MySqlConnection();
 try{
     conn.ConnectionString=connStr;
